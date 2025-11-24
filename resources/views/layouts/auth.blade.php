@@ -12,6 +12,7 @@
 <!--begin::Body-->
 <body class="login-page bg-body-secondary">
 
+    @include('sections.alert')
     @yield('content')
 
     @include('partials.javascript')
